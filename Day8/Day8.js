@@ -31,7 +31,7 @@ function f1(...args){
     args.forEach((i)=>sum+=i);
     console.log(sum);
 }
-console.log(f1(2,3,4,5));
+(f1(2,3,4,5));
 //task7
 function mul(a,b=1){
     return a*b;
